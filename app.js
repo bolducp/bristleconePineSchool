@@ -2,14 +2,7 @@ var app = angular.module('bristlecone', ['ui.router']);
 
 app.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
-    .state('home', {
-      url: '/',
-      views: {
-        "main": {templateUrl: './partials/home.html' },
-        "innerViews": {templateUrl: './partials/inner2.html' },
-      }
-    })  // give it a name and a configuration object that contains a url, a template
-
+    .state('home', { url: '/', templateUrl: './partials/home.html' })  // give it a name and a configuration object that contains a url, a template
     .state('view1', { url: '/view1', templateUrl: './partials/view1.html'})  // give it a name and a configuration object that contains a url, a template
     .state('view2', { url: '/view2', templateUrl: './partials/view2.html'})  // give it a name and a configuration object that contains a url, a template
     .state('view3', { url: '/view3', templateUrl: './partials/view3.html'})  // give it a name and a configuration object that contains a url, a template
