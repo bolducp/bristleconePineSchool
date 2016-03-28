@@ -1,3 +1,18 @@
-body {
+body, h1, h2, h3, h4, h5 {
   font-family: 'Quattrocento', serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Quattrocento', serif;
+}
+
+#header {
+  background: url(bristlecone.jpg) center no-repeat;
+  height: 22vh;
+}
+
+#header > h1 {
+  color: lightSteelBlue;
+  text-align: center;
+  text-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
 }
