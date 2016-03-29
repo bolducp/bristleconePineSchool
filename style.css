@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #header > h1 {
-  color: lightSteelBlue;
+  color:  DarkSeaGreen;
   text-align: center;
   text-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
 }
@@ -23,5 +23,5 @@ h1, h2, h3, h4, h5 {
 }
 
 .innerView {
-  margin: 2% 10% 0 10%;
+  margin: 2% 10% 5% 10%;
 }

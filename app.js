@@ -18,6 +18,10 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/view3',
       templateUrl: './partials/view3.html'
     })
+    .state('contact', {
+      url: '/contact',
+      templateUrl: './partials/contact.html'
+    })
     .state('view1.inner', {
       url: '/inner',
       templateUrl: './partials/inner.html'
@@ -30,6 +34,6 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/inner3',
       templateUrl: './partials/inner3.html'
     })
-    
+
   $urlRouterProvider.otherwise('/'); // gives a default view
 });
