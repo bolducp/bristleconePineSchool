@@ -34,3 +34,7 @@ h1, h2, h3, h4, h5 {
 .innerView {
   margin: 2% 10% 5% 10%;
 }
+
+.row {
+  padding: 5px 10px 20px 10px;
+}
