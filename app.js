@@ -10,9 +10,9 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/view1',
       templateUrl: './partials/view1.html'
     })
-    .state('view2', {
-      url: '/view2',
-      templateUrl: './partials/view2.html'
+    .state('academics', {
+      url: '/academics',
+      templateUrl: './partials/academics.html'
     })
     .state('view3', {
       url: '/view3',
