@@ -14,9 +14,9 @@ app.config(function($stateProvider, $urlRouterProvider) {
       url: '/academics',
       templateUrl: './partials/academics.html'
     })
-    .state('view3', {
-      url: '/view3',
-      templateUrl: './partials/view3.html'
+    .state('selfgov', {
+      url: '/selfgov',
+      templateUrl: './partials/selfgov.html'
     })
     .state('contact', {
       url: '/contact',
