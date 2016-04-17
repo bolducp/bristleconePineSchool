@@ -12,7 +12,8 @@ h1, h2, h3, h4, h5 {
 }
 
 #header > h1 {
-  color:  DarkSeaGreen;
+  color:  White;
+  font-weight: bolder;
   text-align: center;
   text-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
 }
