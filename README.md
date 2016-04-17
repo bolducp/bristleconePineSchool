@@ -17,7 +17,17 @@ git pull upstream gh-pages
 git push origin gh-pages
 ```
 
-To make changes, do the above, then make the changes you're interested in, then run:
+To make changes, do the above, then make the changes you're interested in. 
+
+To run the site with this changes locally, run:
+
+```
+python -m SimpleHTTPServer
+```
+
+You can keep this running in the background. Changes you make will be reflected at `localhost:8000`.
+
+To commit and push these changes.
 
 ```
 git add .
@@ -26,3 +36,4 @@ git push origin gh-pages
 ```
 
 Next, go to your github version of the repository and make a pull request.
+
