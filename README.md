@@ -1,6 +1,9 @@
 # bristleconePineSchool 
 
-a static single page site made for the Bristlecone Pine School
+a static single page site made with AngularJS for the Bristlecone Pine School
+
+### View Live
+www.bristleconepineschool.org
 
 ## Development
 
