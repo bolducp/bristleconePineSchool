@@ -16,12 +16,16 @@
   <script src="app.js"></script>
 </head>
 <body ng-app="bristlecone">
-
-  <div class="top-bar">
+<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle></button>
+  <div class="title-bar-title"></div>
+</div>
+  <div class="top-bar" id="example-menu">
     <div class="top-bar-left">
-      <ul class="dropdown menu" data-dropdown-menu>
-        <li id="homeIcon" class="menu-text" ui-sref="home">Bristlecone Pine</li>
-        <li ui-sref="view1"><a>One</a></li>
+        <div id="homeIcon" class="menu-text" ui-sref="home">Bristlecone Pine</div>
+    </div>
+    <div class="top-bar-right">
+      <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
         <li ui-sref="communal_living"><a>Communal Living</a></li>
         <li ui-sref="academics"><a>Academics</a></li>
         <li ui-sref="selfgov"><a>Self-Governance</a></li>
@@ -30,15 +34,11 @@
     </div>
   </div>
   <div id="header">
-    <br>
     <h1>Bristlecone Pine School</h1>
   </div>
-
   <div class="row">
     <ui-view></ui-view>
   </div>
-
-
   <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.min.js"></script>
   <script>
