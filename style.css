@@ -7,8 +7,8 @@ h1, h2, h3, h4, h5 {
 }
 
 #header {
-  background: url(images/bristlecone-pine.jpeg) center no-repeat;
-  height: 22vh;
+  background: url(images/bristlecone-pine-cropped.jpeg) center no-repeat;
+  height: 18vh;
 }
 
 #header > h1 {
